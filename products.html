@@ -8,19 +8,42 @@
   <body>
     <main>
 
-        <aside>
-            <fieldset>
-                 <h1>Filter Form</h1>
-                 <h3>Select Storage Type</h3>
-                <input type="checkbox"> <b>8/250 ROM</b>
-                <input type="checkbox"> <b>4/128 ROM</b> <br>
-                <h3>Select Brand</h3>
-                <input type="radio" name="brand" id=""> <b>Samsung</b>
-                <input type="radio" name="brand" id=""> <b>Iphone</b>
-                <input type="radio" name="brand" id=""> <b>Tecno</b>
-            </fieldset>
-           
-        </aside>
+        <aside class="filter-panel">
+  <form>
+    <fieldset>
+      <legend>Filter Products</legend>
+
+      <h3>Storage Type</h3>
+      <label>
+        <input type="checkbox" name="storage" value="8-256">
+        8GB / 256GB
+      </label><br>
+
+      <label>
+        <input type="checkbox" name="storage" value="4-128">
+        4GB / 128GB
+      </label>
+
+      <h3>Brand</h3>
+      <label>
+        <input type="radio" name="brand" value="samsung">
+        Samsung
+      </label><br>
+
+      <label>
+        <input type="radio" name="brand" value="iphone">
+        iPhone
+      </label><br>
+
+      <label>
+        <input type="radio" name="brand" value="tecno">
+        Tecno
+      </label>
+
+    </fieldset>
+  </form>
+</aside>
+
 
       <section class="products">
 
