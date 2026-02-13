@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navs {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: black;
+    color:#fff;
+
+}
+
+.nav-li {
+    list-style: none;
+    display: flex;
+    gap:25px;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-banner {
+ height:30vh;
+ text-align: center;
+}
